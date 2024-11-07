@@ -1,0 +1,99 @@
+.card-payment-container {
+    border: 1px solid #ccc;
+    padding: 50px;
+    background: #22502a;
+    border-radius: 5px;
+    box-shadow: 1 2px 5px rgba(0,0,0,0.1);
+    width: 500px;
+}
+
+.card-payment input {
+    width: calc(100% - 20px);
+    margin: 5px 0;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.payment-receipt {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(149, 186, 139);
+    padding: 20px;
+    border: 1px solid #879e8c;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    z-index: 1001;
+    width: 300px;
+}
+.card-payment button {
+    padding: 12px 20px;
+    margin-top: 20px;
+    background-color: #1f702d; 
+    background-image: linear-gradient(315deg, #479b44 0%, #19421e 74%); 
+    border: 1px solid;
+    border-radius: 6px; 
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px; 
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.card-payment button:hover, .card-payment button:focus {
+    transform: translateY(-3px); 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+    background-image: linear-gradient(315deg, #316e2c 0%, #287f4a 74%); 
+}
+
+.error-message {
+    color: #d9534f; 
+    margin-top: 10px;
+}
+
+
+.card-payment button:active {
+    transform: translateY(1px); 
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2); 
+}
+
+/* CardPayment.css */
+
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.modal-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #539c2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-button:hover {
+    background-color: #407224;
+}

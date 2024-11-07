@@ -1,0 +1,119 @@
+.descriptionbox {
+    margin: 120px 170px;
+}
+
+.descriptionbox-navigator {
+    display: flex;
+}
+
+.descriptionbox-nav-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 171px;
+    height: 70px;
+    border: 1px solid #d0d0d0;
+}
+
+.descriptionbox-nav-box.fade {
+    background: #FBFBFB;
+    color: #555;
+}
+
+.descriptionbox-reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 1px solid #D0D0D0;
+    padding: 48px;
+    padding-bottom: 70px;
+}
+
+.review {
+    border: 1px solid #d0d0d0;
+    padding: 16px;
+    border-radius: 5px;
+    background: #fafafa;
+}
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid #D0D0D0;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.review-form label {
+    font-weight: 600;
+}
+
+.review-form select,
+.review-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+}
+
+.review-form button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.review-form button:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 1280px) {
+    .descriptionbox {
+        margin: 60px 60px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .descriptionbox {
+        margin: 60px 20px;
+    }
+    .descriptionbox-reviews {
+        font-size: 14px;
+    }
+}
+
+.descriptionbox2 {
+    margin: 120px 170px;
+    padding: 48px;
+    border: 1px solid #D0D0D0;
+    background-color: #FBFBFB;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.descriptionbox2 p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #555;
+}
+
+@media (max-width: 1280px) {
+    .descriptionbox2 {
+        margin: 60px 60px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .descriptionbox2 {
+        margin: 60px 20px;
+        font-size: 16px;
+    }
+}

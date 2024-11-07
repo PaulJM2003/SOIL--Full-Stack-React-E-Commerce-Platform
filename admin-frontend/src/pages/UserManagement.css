@@ -1,0 +1,55 @@
+.user-management {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .user-management h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .user-management ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-management li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .user-management li:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .user-management button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .user-management .delete-button {
+    background-color: #f44336;
+  }
+  
+  .user-management .delete-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .user-management .details-button {
+    background-color: #4CAF50;
+  }
+  
+  .user-management .details-button:hover {
+    background-color: #45a049;
+  }
+  
+  
